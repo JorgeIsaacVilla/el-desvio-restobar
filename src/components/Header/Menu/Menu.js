@@ -62,8 +62,8 @@ function Menu() {
                             <img src={domicilio} />
                         </div>
                         <div>
-                            <h2 className="h2-image-domicilio">¡Envío a domicilio gratis!</h2>
-                            <p className="p-image-domicilio">Domicilios gratuitos en toda Barranquilla y Soledad.</p>
+                            <h2 className="h2-image-domicilio">¡Envío a domicilio!</h2>
+                            <p className="p-image-domicilio">Servicio a domicilios 3107152558.</p>
                         </div>
                     </div>
                 </div>

@@ -5,8 +5,8 @@ import { Game } from "./Game/Game";
 
 function Footer() {
 
-    const phoneNumber = "3218828546";
-    const message = "Hola! Te envío el comprobante"
+    const phoneNumber = "3222584428";
+    const message = "Hola! Quiero hacer un pedido."
 
     const [scannerQrVisible, setScannerQrVisible] = useState(false);
     const toggleScannerQr = () =>{
