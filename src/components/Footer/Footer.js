@@ -5,7 +5,7 @@ import { Game } from "./Game/Game";
 
 function Footer() {
 
-    const phoneNumber = "6053222584428";
+    const phoneNumber = "573222584428";
     const message = "Hola! Quiero hacer un pedido."
 
     const [scannerQrVisible, setScannerQrVisible] = useState(false);
