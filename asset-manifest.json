@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/el-desvio-restobar/static/css/main.83bbe883.css",
-    "main.js": "/el-desvio-restobar/static/js/main.05545203.js",
+    "main.js": "/el-desvio-restobar/static/js/main.dc6d419e.js",
     "static/js/787.7a877da5.chunk.js": "/el-desvio-restobar/static/js/787.7a877da5.chunk.js",
     "static/media/m4.png": "/el-desvio-restobar/static/media/m4.0cb5eba8e224397516c2.png",
     "static/media/m1.png": "/el-desvio-restobar/static/media/m1.52e33a90e6887fff8e82.png",
@@ -24,6 +24,7 @@
     "static/media/m3.png": "/el-desvio-restobar/static/media/m3.c2a6c4cb4f9b1f1b93b2.png",
     "static/media/m9.png": "/el-desvio-restobar/static/media/m9.da4b1173e13b85dceba2.png",
     "static/media/m10.png": "/el-desvio-restobar/static/media/m10.d81247d2a2f89b7900a2.png",
+    "static/media/imgQrNequi.PNG": "/el-desvio-restobar/static/media/imgQrNequi.0be9d643f601317545de.PNG",
     "static/media/m8.png": "/el-desvio-restobar/static/media/m8.18c16e350ac4b242efa4.png",
     "static/media/dino.png": "/el-desvio-restobar/static/media/dino.3550c03e65756fd8fd18.png",
     "static/media/icoInstagram.svg": "/el-desvio-restobar/static/media/icoInstagram.818d293fde816691d81c369f53855894.svg",
@@ -34,17 +35,18 @@
     "static/media/icoTwitter.svg": "/el-desvio-restobar/static/media/icoTwitter.8221e30090978d7ff118eca39d91bafb.svg",
     "static/media/icoGame.svg": "/el-desvio-restobar/static/media/icoGame.3ab0ae9c9941864b78de.svg",
     "static/media/icoWhatsapp.svg": "/el-desvio-restobar/static/media/icoWhatsapp.4484ff2c07e3f3f8c23c.svg",
+    "static/media/icoNequi.svg": "/el-desvio-restobar/static/media/icoNequi.c9921a34c59de1f912b304c8c5bb4425.svg",
     "static/media/icoTiktok.svg": "/el-desvio-restobar/static/media/icoTiktok.5a803cdc8f4d127b697eb09c13a39bd1.svg",
     "static/media/icoMenu.svg": "/el-desvio-restobar/static/media/icoMenu.ae3abe969441cc5bc308.svg",
     "index.html": "/el-desvio-restobar/index.html",
     "static/media/icoFacebook.svg": "/el-desvio-restobar/static/media/icoFacebook.b5a88e6a91c84e1aa5ae291ec7335f35.svg",
     "static/media/icoMenuClosed.svg": "/el-desvio-restobar/static/media/icoMenuClosed.356d101572de6c63db16.svg",
     "main.83bbe883.css.map": "/el-desvio-restobar/static/css/main.83bbe883.css.map",
-    "main.05545203.js.map": "/el-desvio-restobar/static/js/main.05545203.js.map",
+    "main.dc6d419e.js.map": "/el-desvio-restobar/static/js/main.dc6d419e.js.map",
     "787.7a877da5.chunk.js.map": "/el-desvio-restobar/static/js/787.7a877da5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.83bbe883.css",
-    "static/js/main.05545203.js"
+    "static/js/main.dc6d419e.js"
   ]
 }
