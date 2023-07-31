@@ -52,7 +52,7 @@ function Menu5({sectionId}){
     ]
     return(
         <>
-            <h2 className="tittle-item" id={sectionId}>Desgranados</h2>
+            <h2 className="tittle-item" id={sectionId}>DESGRANADOS</h2>
             <ul>
                 {menuItem.map((item)=>
                 <li key= {item.pos} >

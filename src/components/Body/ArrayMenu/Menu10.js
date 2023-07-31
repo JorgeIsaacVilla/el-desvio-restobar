@@ -94,7 +94,7 @@ function Menu10({sectionId}){
     ]
     return(
         <>
-            <h2 className="tittle-item" id={sectionId}>Adicionales</h2>
+            <h2 className="tittle-item" id={sectionId}>ADICIONALES</h2>
             <ul>
                 {menuItem.map((item)=>
                 <li key= {item.pos} >

@@ -22,7 +22,7 @@ function Menu9({sectionId}){
     ]
     return(
         <>
-            <h2 className="tittle-item" id={sectionId}>De La Casa</h2>
+            <h2 className="tittle-item" id={sectionId}>DE LA CASA</h2>
             <ul>
                 {menuItem.map((item)=>
                 <li key= {item.pos} >

@@ -40,7 +40,7 @@ function Menu7({sectionId}){
     ]
     return(
         <>
-            <h2 className="tittle-item" id={sectionId}>Pataconazo</h2>
+            <h2 className="tittle-item" id={sectionId}>PATACONAZO</h2>
             <ul>
                 {menuItem.map((item)=>
                 <li key= {item.pos} >
