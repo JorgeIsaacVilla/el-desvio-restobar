@@ -10,7 +10,7 @@ function Menu8({sectionId}){
     const menuItem =[
     {pos:1,
     image:imagen1,
-    food:"vaquerito De Pollo",
+    food:"Vaquerito De Pollo",
     price:17000,
     ingredients:""},
 

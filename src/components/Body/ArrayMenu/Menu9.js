@@ -11,13 +11,13 @@ function Menu9({sectionId}){
     {pos:1,
     image:imagen1,
     food:"Salvajada Bodegona #1",
-    price:43000,
+    price:50000,
     ingredients:""},
 
     {pos:2,
     image:imagen2,
     food:"Salvajada Bodegona #2",
-    price:50000,
+    price:70000,
     ingredients:""},
     ]
     return(

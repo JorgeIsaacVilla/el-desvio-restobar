@@ -10,7 +10,7 @@ function Menu5({sectionId}){
     const menuItem =[
     {pos:1,
     image:imagen1,
-    food:"Chori-Buti",
+    food:"Chori - Buti",
     price:17500,
     ingredients:""},
 
@@ -40,7 +40,7 @@ function Menu5({sectionId}){
 
     {pos:6,
     image:imagen5,
-    food:"Carne-Pollo",
+    food:"Carne - Pollo",
     price:21000,
     ingredients:""},
 

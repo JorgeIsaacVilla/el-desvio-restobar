@@ -46,7 +46,7 @@ function Menu2({sectionId}){
 
     {pos:7,
     image:imagen5,
-    food:"Carne-Pollo (Mixta)",
+    food:"Carne - Pollo (Mixta)",
     price:22000,
     ingredients:""},
 

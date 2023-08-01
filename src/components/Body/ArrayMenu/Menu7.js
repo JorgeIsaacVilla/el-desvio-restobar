@@ -22,7 +22,7 @@ function Menu7({sectionId}){
 
     {pos:3,
     image:imagen3,
-    food:"Carne-Pollo",
+    food:"Carne - Pollo",
     price:26000,
     ingredients:""},
 
@@ -34,7 +34,7 @@ function Menu7({sectionId}){
 
     {pos:5,
     image:imagen4,
-    food:"Chori-buti",
+    food:"Chori - Buti",
     price:23000,
     ingredients:""},
     ]

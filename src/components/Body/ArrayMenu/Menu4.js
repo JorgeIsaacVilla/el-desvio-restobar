@@ -16,7 +16,7 @@ function Menu4({sectionId}){
 
     {pos:2,
     image:imagen2,
-    food:"Chori-Buti",
+    food:"Chori - Buti",
     price:17500,
     ingredients:""},
 
@@ -58,7 +58,7 @@ function Menu4({sectionId}){
 
     {pos:9,
     image:imagen5,
-    food:"Carne-Pollo",
+    food:"Carne - Pollo",
     price:22000,
     ingredients:""},
 

@@ -24,52 +24,52 @@ function Slider({ targetSection1,targetSection2, targetSection3, targetSection4,
 
         {targetSection:targetSection1,
          imageSlider:image1,
-         tittleSLider:"Perros Calientes"
+         tittleSLider:"PERROS CALIENTES"
         },
 
         {targetSection:targetSection2,
         imageSlider:image2,
-        tittleSLider:"Mazorcas"
+        tittleSLider:"MAZORCAS"
         },
 
        {targetSection:targetSection3,
        imageSlider:image3,
-       tittleSLider:"Salchipapas"
+       tittleSLider:"SALCHIPAPAS"
        },
 
        {targetSection:targetSection4,
        imageSlider:image4,
-       tittleSLider:"Perros Salvajes"
+       tittleSLider:"PERROS SALVAJES"
        },
 
        {targetSection:targetSection5,
        imageSlider:image5,
-       tittleSLider:"Desgranados"
+       tittleSLider:"DESGRANADO"
        },
 
        {targetSection:targetSection6,
        imageSlider:image6,
-       tittleSLider:"Hamburguesas"
+       tittleSLider:"HAMBURGUESAS"
        },
 
        {targetSection:targetSection7,
        imageSlider:image7,
-       tittleSLider:"Pataconazo"
+       tittleSLider:"PATACONAZO"
        },
 
        {targetSection:targetSection8,
         imageSlider:image8,
-        tittleSLider:"Asados"
+        tittleSLider:"ASADOS"
        },
 
        {targetSection:targetSection9,
         imageSlider:image9,
-        tittleSLider:"De La Casa"
+        tittleSLider:"DE LA CASA"
        },
 
        {targetSection:targetSection10,
         imageSlider:image10,
-        tittleSLider:"Adicionales"
+        tittleSLider:"ADICIONALES"
        },
 
     ];

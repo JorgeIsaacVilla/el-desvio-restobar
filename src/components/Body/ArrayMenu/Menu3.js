@@ -34,38 +34,38 @@ function Menu3({sectionId}){
 
     {pos:5,
     image:imagen5,
-    food:"Chori-buti",
+    food:"Chori - Buti",
     price:18000,
-    ingredients:""},
-
-    {pos:5,
-    image:imagen5,
-    food:"Carne-Pollo",
-    price:23000,
     ingredients:""},
 
     {pos:6,
     image:imagen5,
-    food:"Combinado",
+    food:"Carne - Pollo",
     price:23000,
     ingredients:""},
 
     {pos:7,
     image:imagen5,
+    food:"Combinado",
+    price:23000,
+    ingredients:""},
+
+    {pos:8,
+    image:imagen5,
     food:"Pollo",
     price:22000,
     ingredients:""},
 
-    {pos:8,
+    {pos:9,
     image:imagen5,
     food:"Lomito",
     price:24000,
     ingredients:""},
 
-    {pos:9,
+    {pos:10,
     image:imagen5,
-    food:"La bodegona",
-    price:27000,
+    food:"La Bodegona",
+    price:30000,
     ingredients:""},
     ]
     return(

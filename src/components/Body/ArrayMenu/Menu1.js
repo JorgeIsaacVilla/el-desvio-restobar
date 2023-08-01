@@ -35,7 +35,7 @@ function Menu1({sectionId}) {
 
         {pos:5,
         image:imagen5,
-        food:"Chori-Buti",
+        food:"Chori - Buti",
         price:13000,
         ingredients:""},
 
@@ -53,7 +53,7 @@ function Menu1({sectionId}) {
 
         {pos:8,
         image:imagen5,
-        food:"Italiano Hawaiano",
+        food:"Ítalo Hawaiano",
         price:17000,
         ingredients:""},
 
