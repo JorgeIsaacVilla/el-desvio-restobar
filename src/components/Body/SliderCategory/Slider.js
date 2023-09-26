@@ -17,8 +17,10 @@ import image7 from "./imgSliderCat/m7.png";
 import image8 from "./imgSliderCat/m8.png";
 import image9 from "./imgSliderCat/m9.png";
 import image10 from "./imgSliderCat/m10.png";
+import image11 from "./imgSliderCat/m11.png";
+import image12 from "./imgSliderCat/m12.png";
 
-function Slider({ targetSection1,targetSection2, targetSection3, targetSection4, targetSection5, targetSection6, targetSection7, targetSection8, targetSection9, targetSection10 }) {
+function Slider({ targetSection1,targetSection2, targetSection3, targetSection4, targetSection5, targetSection6, targetSection7, targetSection8, targetSection9, targetSection10, targetSection11, targetSection12 }) {
 
     const sliderITem =[
 
@@ -69,6 +71,16 @@ function Slider({ targetSection1,targetSection2, targetSection3, targetSection4,
 
        {targetSection:targetSection10,
         imageSlider:image10,
+        tittleSLider:"PIZZA"
+       },
+
+       {targetSection:targetSection11,
+        imageSlider:image11,
+        tittleSLider:"BEBIDAS"
+       },
+
+       {targetSection:targetSection12,
+        imageSlider:image12,
         tittleSLider:"ADICIONALES"
        },
 

@@ -1,45 +1,45 @@
 import React from "react";
 import "./Menu.css";
-import imagen1 from "./imgMenu5/img1.jpg";
-import imagen2 from "./imgMenu5/img2.jpg";
-import imagen3 from "./imgMenu5/img3.jpg";
-import imagen4 from "./imgMenu5/img4.jpg";
-import imagen5 from "./imgMenu5/img5.jpg";
+/*import imagen1 from "./imgMenu8/img1.jpg";
+import imagen2 from "./imgMenu8/img2.jpg";
+import imagen3 from "./imgMenu8/img3.jpg";
+import imagen4 from "./imgMenu8/img4.jpg";
+import imagen8 from "./imgMenu8/img5.jpg";*/
 
 function Menu8({sectionId}){
     const menuItem =[
     {pos:1,
-    image:imagen1,
+    image:"imagen1",
     food:"Costillas BBQ",
     price:25000,
     ingredients:""},
 
     {pos:2,
-    image:imagen2,
+    image:"imagen2",
     food:"Chuleta De Cerdo",
     price:22000,
     ingredients:""},
 
     {pos:3,
-    image:imagen3,
+    image:"imagen3",
     food:"Parrillada Mixta",
     price:27000,
     ingredients:""},
 
     {pos:4,
-    image:imagen4,
+    image:"imagen4",
     food:"Lomo De Cerdo",
     price:23000,
     ingredients:""},
 
     {pos:5,
-    image:imagen4,
+    image:"imagen5",
     food:"Pechuga Asada",
     price:23000,
     ingredients:""},
 
     {pos:6,
-    image:imagen4,
+    image:"imagen6",
     food:"Lomo De Res Asado Al Carbón",
     price:28000,
     ingredients:""},
