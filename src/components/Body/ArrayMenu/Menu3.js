@@ -47,13 +47,13 @@ function Menu3({sectionId}){
     {pos:7,
     image:imagen5,
     food:"Combinado",
-    price:23000,
+    price:24000,
     ingredients:""},
 
     {pos:8,
     image:imagen5,
     food:"Pollo",
-    price:22000,
+    price:23000,
     ingredients:""},
 
     {pos:9,

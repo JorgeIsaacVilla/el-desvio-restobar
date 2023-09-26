@@ -42,7 +42,7 @@ function Menu1({sectionId}) {
         {pos:6,
         image:imagen5,
         food:"Ranchero",
-        price:13000,
+        price:13500,
         ingredients:""},
 
         {pos:7,
@@ -53,11 +53,17 @@ function Menu1({sectionId}) {
 
         {pos:8,
         image:imagen5,
+        food:"Suizo Ranchero",
+        price:21000,
+        ingredients:""},
+
+        {pos:9,
+        image:imagen5,
         food:"Ítalo Hawaiano",
         price:17000,
         ingredients:""},
 
-        {pos:9,
+        {pos:10,
         image:imagen5,
         food:"Ítalo Suizo",
         price:18000,

@@ -19,6 +19,18 @@ function Menu9({sectionId}){
     food:"Salvajada Bodegona #2",
     price:70000,
     ingredients:""},
+
+    {pos:3,
+    image:imagen2,
+    food:"Alitas BBQ",
+    price:"",
+    ingredients:""},
+
+    {pos:4,
+    image:imagen2,
+    food:"Hamburquesa London",
+    price:"",
+    ingredients:""},
     ]
     return(
         <>

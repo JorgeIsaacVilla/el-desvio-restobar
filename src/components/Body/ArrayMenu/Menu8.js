@@ -10,20 +10,20 @@ function Menu8({sectionId}){
     const menuItem =[
     {pos:1,
     image:imagen1,
-    food:"Vaquerito De Pollo",
-    price:17000,
+    food:"Costillas BBQ",
+    price:25000,
     ingredients:""},
 
     {pos:2,
     image:imagen2,
-    food:"Vaquerito De Carne",
-    price:18000,
+    food:"Chuleta De Cerdo",
+    price:22000,
     ingredients:""},
 
     {pos:3,
     image:imagen3,
     food:"Parrillada Mixta",
-    price:25000,
+    price:27000,
     ingredients:""},
 
     {pos:4,
@@ -35,13 +35,13 @@ function Menu8({sectionId}){
     {pos:5,
     image:imagen4,
     food:"Pechuga Asada",
-    price:22000,
+    price:23000,
     ingredients:""},
 
     {pos:6,
     image:imagen4,
-    food:"Lomo Asado",
-    price:25000,
+    food:"Lomo De Res Asado Al Carbón",
+    price:28000,
     ingredients:""},
     ]
     return(

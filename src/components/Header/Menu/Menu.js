@@ -17,14 +17,14 @@ function Menu() {
         {redSocial:"instagram",
          imageRedSocial:instagram,
          userRedSocial:"eldesviorestobar",
-         linkRedSocial:"https://www.instagram.com/eldesviorestobar/"},
+         linkRedSocial:"https://instagram.com/eldesviorestobar59?igshid=NGVhN2U2NjQ0Yg=="},
 
-         {redSocial:"faceboock",
+        /*{redSocial:"faceboock",
          imageRedSocial:faceboock,
          userRedSocial:"El Desvío Restobar  ",
          linkRedSocial:"https://www.facebook.com/profile.php?id=100092939194114"},
 
-         /*{redSocial:"twitter",
+         {redSocial:"twitter",
          imageRedSocial:twitter,
          userRedSocial:"Plate_fork",
          linkRedSocial:"https://jorgeisaacvilla.github.io/my_portafolio/"},
@@ -63,7 +63,7 @@ function Menu() {
                         </div>
                         <div>
                             <h2 className="h2-image-domicilio">¡Envío a domicilio!</h2>
-                            <p className="p-image-domicilio">Servicio a domicilios 3107152558.</p>
+                            <p className="p-image-domicilio">Servicio a domicilios 3222584428.</p>
                         </div>
                     </div>
                 </div>

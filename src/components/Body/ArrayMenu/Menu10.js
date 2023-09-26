@@ -53,7 +53,7 @@ function Menu10({sectionId}){
     {pos:8,
     image:imagen5,
     food:"Grille",
-    price:5000,
+    price:4000,
     ingredients:""},
 
     {pos:9,

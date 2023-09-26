@@ -17,7 +17,7 @@ function Menu5({sectionId}){
     {pos:2,
     image:imagen2,
     food:"Suizo",
-    price:17000,
+    price:18000,
     ingredients:""},
 
     {pos:3,

@@ -9,14 +9,14 @@ function Menu6({sectionId}){
     const menuItem =[
     {pos:1,
     image:imagen1,
-    food:"Pollo",
+    food:"Clásica De La Casa",
     price:17000,
     ingredients:""},
 
     {pos:2,
     image:imagen2,
-    food:"Carne",
-    price:17000,
+    food:"Clásica De Pollo",
+    price:18000,
     ingredients:""},
 
     {pos:3,
@@ -27,8 +27,14 @@ function Menu6({sectionId}){
 
     {pos:4,
     image:imagen4,
-    food:"Doluxe Carne",
-    price:24000,
+    food:"Hamburguesa Artesanal",
+    price:17000,
+    ingredients:""},
+
+    {pos:5,
+    image:imagen4,
+    food:"Hamburguesa Artesanal De Pollo",
+    price:17000,
     ingredients:""},
 
     ]

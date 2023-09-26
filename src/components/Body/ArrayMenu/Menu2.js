@@ -23,7 +23,7 @@ function Menu2({sectionId}){
     {pos:3,
     image:imagen3,
     food:"Hawaiana",
-    price:15000,
+    price:18000,
     ingredients:""},
 
     {pos:4,
@@ -41,25 +41,31 @@ function Menu2({sectionId}){
     {pos:6,
     image:imagen5,
     food:"Pollo",
-    price:20000,
+    price:23000,
     ingredients:""},
 
     {pos:7,
     image:imagen5,
     food:"Carne - Pollo (Mixta)",
-    price:22000,
+    price:24000,
     ingredients:""},
 
     {pos:8,
     image:imagen5,
-    food:"Lomito",
-    price:33000,
+    food:"Chori - Buti",
+    price:18000,
     ingredients:""},
 
     {pos:9,
     image:imagen5,
+    food:"Lomito",
+    price:25000,
+    ingredients:""},
+
+    {pos:10,
+    image:imagen5,
     food:"Combinado",
-    price:22000,
+    price:24000,
     ingredients:""},
     ]
     

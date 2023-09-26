@@ -59,7 +59,7 @@ function Menu4({sectionId}){
     {pos:9,
     image:imagen5,
     food:"Carne - Pollo",
-    price:22000,
+    price:23000,
     ingredients:""},
 
     {pos:10,
