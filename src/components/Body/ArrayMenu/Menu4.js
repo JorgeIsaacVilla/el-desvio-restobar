@@ -1,90 +1,91 @@
 import React from "react";
 import "./Menu.css";
-import imagen1 from "./imgMenu4/img1.jpg";
+/*import imagen1 from "./imgMenu4/img1.jpg";
 import imagen2 from "./imgMenu4/img2.jpg";
 import imagen3 from "./imgMenu4/img3.jpg";
 import imagen4 from "./imgMenu4/img4.jpg";
-import imagen5 from "./imgMenu4/img5.jpg";
+import imagen5 from "./imgMenu4/img5.jpg";*/
 
 function Menu4({sectionId}){
     const menuItem =[
-    {pos:1,
-    image:imagen1,
-    food:"Sencillo",
-    price:13000,
-    ingredients:""},
-
-    {pos:2,
-    image:imagen2,
-    food:"Chori - Buti",
-    price:17500,
-    ingredients:""},
-
-    {pos:3,
-    image:imagen3,
-    food:"Gemelo",
-    price:17000,
-    ingredients:""},
-
-    {pos:4,
-    image:imagen4,
-    food:"Ranchero",
-    price:19000,
-    ingredients:""},
-
-    {pos:5,
-    image:imagen5,
-    food:"Suizo",
-    price:20000,
-    ingredients:""},
-
-    {pos:6,
-    image:imagen5,
-    food:"Ítalo Hawaiano",
-    price:22000,
-    ingredients:""},
-
-    {pos:7,
-    image:imagen5,
-    food:"Lomito",
-    price:24000,
-    ingredients:""},
-
-    {pos:8,
-    image:imagen5,
-    food:"Pollo",
-    price:21000,
-    ingredients:""},
-
-    {pos:9,
-    image:imagen5,
-    food:"Carne - Pollo",
-    price:23000,
-    ingredients:""},
-
-    {pos:10,
-    image:imagen5,
-    food:"Combinado",
-    price:22000,
-    ingredients:""},
-
-    {pos:11,
-    image:imagen5,
-    food:"Jamón Gratinado",
-    price:19000,
-    ingredients:""},
-
-    {pos:12,
-    image:imagen5,
-    food:"Escoces",
-    price:27000,
-    ingredients:""},
-
-    {pos:13,
-    image:imagen5,
-    food:"Ítalo Suizo",
-    price:23000,
-    ingredients:""},
+                    
+            {pos:1,
+            image: "imagen1",
+            food:'sencillo',
+            price:'13000',
+            ingredients:'Pan Asado al Carbón | Salchicha | Queso | Papas Chongo | Lechuga | Tártara | Piña. '},
+            
+            {pos:2,
+            image: "imagen2",
+            food:'chori-buti',
+            price:'17500',
+            ingredients:'Pan | Chorizo | Butifarra | Queso | Papas Chongo | Lechuga | Tártara | Piña. '},
+            
+            {pos:3,
+            image: "imagen3",
+            food:'gemelo',
+            price:'17000',
+            ingredients:'Pan | Salchicha Doble | Queso | Papas Chongo | Lechuga | Tártara. '},
+            
+            {pos:4,
+            image: "imagen4",
+            food:'ranchero',
+            price:'19000',
+            ingredients:'Pan Asado al Carbón | Salchicha Ranchera | Queso | Papas | Chongo | Lechuga | Tártara | Piña. '},
+            
+            {pos:5,
+            image: "imagen5",
+            food:'suizo',
+            price:'20000',
+            ingredients:'Pan Asado al Carbón | Salchicha Suiza | Queso | Papas Chongo | Lechuga | Tártara | Piña. '},
+            
+            {pos:6,
+            image: "imagen6",
+            food:'ítalo hawaiano',
+            price:'22000',
+            ingredients:'Pan Asado al Carbón | Papas Chongo | Lechuga | Tártara | Piña | Jamón | Tocineta | Queso Mozzarella | Salchicha. '},
+            
+            {pos:7,
+            image: "imagen7",
+            food:'lomito',
+            price:'24000',
+            ingredients:'Pan Asado al Carbón | Lomito de Res | Queso | Papas Chongo | Lechuga | Tártara | Piña. '},
+            
+            {pos:8,
+            image: "imagen8",
+            food:'pollo',
+            price:'21000',
+            ingredients:'Pan Asado al Carbón | Pollo | Queso | Papas Chongo | Lechuga | Tártara | Piña. '},
+            
+            {pos:9,
+            image: "imagen9",
+            food:'carne-pollo',
+            price:'23000',
+            ingredients:'Pan Asado al Carbón | Carne | Pollo | Queso | Papas Chongo | Lechuga | Tártara | Piña. '},
+            
+            {pos:10,
+            image: "imagen10",
+            food:'combinado',
+            price:'22000',
+            ingredients:'Pan Asado al Carbón | Carne | Pollo | Chorizo | Butifarra | Queso | Papas Chongo | Lechuga | Tártara | Piña. '},
+            
+            {pos:11,
+            image: "imagen11",
+            food:'jamón gratinado',
+            price:'19000',
+            ingredients:'Pan Asado al Carbón | Jamón | Queso Mozzarella | Papas Chongo | Lechuga | Tártara | Piña. '},
+            
+            {pos:12,
+            image: "imagen12",
+            food:'escoces',
+            price:'27000',
+            ingredients:'Pan Asado al Carbón | Carne | Pollo | Chorizo | Butifarra | Queso Costeño | Queso Mozzarella Gratinado | Maíz | Papas Chongo | Lechuga | Tártara | Piña. '},
+            
+            {pos:13,
+            image: "imagen13",
+            food:'ítalo suizo',
+            price:'23000',
+            ingredients:'Pan Asado al Carbón | Papas Chongo | Lechuga | Tártara | Piña | Jamón | Tocineta | Queso Mozzarella | Salchicha Suiza.'},
     ]
     return(
         <>
@@ -97,7 +98,7 @@ function Menu4({sectionId}){
                         <div>
                             <h3 
                              className="tittle-food">
-                                {item.food}</h3>
+                                {item.food.toUpperCase()}</h3>
                                 <p className="ingredients">
                                     {item.ingredients}
                                 </p>

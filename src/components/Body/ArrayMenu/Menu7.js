@@ -8,35 +8,36 @@ import imagen7 from "./imgMenu7/img5.jpg";*/
 
 function Menu7({sectionId}){
     const menuItem =[
-    {pos:1,
-    image:"imagen1",
-    food:"Combinado",
-    price:27000,
-    ingredients:""},
 
-    {pos:2,
-    image:"imagen2",
-    food:"Pollo",
-    price:25000,
-    ingredients:""},
-
-    {pos:3,
-    image:"imagen3",
-    food:"Carne - Pollo",
-    price:26000,
-    ingredients:""},
-
-    {pos:4,
-    image:"imagen4",
-    food:"Lomito",
-    price:27000,
-    ingredients:""},
-
-    {pos:5,
-    image:"imagen5",
-    food:"Chori - Buti",
-    price:23000,
-    ingredients:""},
+            {pos:1,
+            image: "imagen1",
+            food:'combinado',
+            price:'27000',
+            ingredients:'Patacón de Plátano Verde | Queso Costeño | Lechuga | Papa Chongo | Carne | Pollo | Chorizo | Butifarra | Tártara | Piña | Queso Mozzarella con Maíz. '},
+            
+            {pos:2,
+            image: "imagen2",
+            food:'pollo',
+            price:'25000',
+            ingredients:'Patacón de Plátano Verde | Queso Costeño | Lechuga | Papa Chongo | Pollo | Tártara | Piña | Queso Mozzarella con Maíz. '},
+            
+            {pos:3,
+            image: "imagen3",
+            food:'carne-pollo',
+            price:'26000',
+            ingredients:'Patacón de Plátano Verde | Queso Costeño | Lechuga | Papa Chongo | Carne | Pollo | Tártara | Piña | Queso Mozzarella con Maíz. '},
+            
+            {pos:4,
+            image: "imagen4",
+            food:'lomito',
+            price:'27000',
+            ingredients:'Patacón de Plátano Verde | Queso Costeño | Lechuga | Papa Chongo | Lomito de Res | Tártara | Piña | Queso Mozzarella con Maíz. '},
+            
+            {pos:5,
+            image: "imagen5",
+            food:'chori-buti',
+            price:'23000',
+            ingredients:'Patacón de Plátano Verde | Queso Costeño | Lechuga | Papa Chongo | Chorizo | Butifarra | Tártara | Piña | Queso Mozzarella con Maíz'},
     ]
     return(
         <>
@@ -49,7 +50,7 @@ function Menu7({sectionId}){
                         <div>
                             <h3 
                              className="tittle-food">
-                                {item.food}</h3>
+                                {item.food.toUpperCase()}</h3>
                                 <p className="ingredients">
                                     {item.ingredients}
                                 </p>

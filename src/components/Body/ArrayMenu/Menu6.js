@@ -7,35 +7,36 @@ import imagen4 from "./imgMenu6/img4.jpg";*/
 
 function Menu6({sectionId}){
     const menuItem =[
-    {pos:1,
-    image:"imagen1",
-    food:"Clásica De La Casa",
-    price:17000,
-    ingredients:""},
 
-    {pos:2,
-    image:"imagen2",
-    food:"Clásica De Pollo",
-    price:18000,
-    ingredients:""},
-
-    {pos:3,
-    image:"imagen3",
-    food:"Doble Carne",
-    price:22000,
-    ingredients:""},
-
-    {pos:4,
-    image:"imagen4",
-    food:"Hamburguesa Artesanal",
-    price:17000,
-    ingredients:""},
-
-    {pos:5,
-    image:"imagen5",
-    food:"Hamburguesa Artesanal De Pollo",
-    price:17000,
-    ingredients:""},
+        {pos:1,
+        image: "imagen1",
+        food:'Clásica de la casa',
+        price:'17000',
+        ingredients:'Pan Brioche | Carne (Previamente Asado al Carbón) | Queso Mozzarella | Tomate | Cebolla | Tártara de la Casa. '},
+        
+        {pos:2,
+        image: "imagen2",
+        food:'Clásica de pollo',
+        price:'18000',
+        ingredients:'Pan Brioche | Pollo (Previamente Asado al Carbón) | Queso Mozzarella | Tomate | Cebolla | Tártara de la Casa. '},
+        
+        {pos:3,
+        image: "imagen3",
+        food:'doble carne',
+        price:'22000',
+        ingredients:'Pan Brioche | Doble Carne (Previamente Asado al Carbón) | Queso Mozzarella | Tomate | Cebolla | Tártara de la Casa. '},
+        
+        {pos:4,
+        image: "imagen4",
+        food:'Hamburguesa artesanal',
+        price:'17000',
+        ingredients:'Pan Brioche | Carne (Previamente Asado al Carbón) | Queso Mozzarella | Tomate | Cebolla Caramelizada | Salsa Tenesis. '},
+        
+        {pos:5,
+        image: "imagen5",
+        food:'Hamburguesa artesanal de pollo',
+        price:'17000',
+        ingredients:'Pan Brioche | Pollo (Previamente Asado al Carbón) | Queso Mozzarella | Tomate | Cebolla | Salsa Tenesis.'},
 
     ]
     return(
@@ -49,7 +50,7 @@ function Menu6({sectionId}){
                         <div>
                             <h3 
                              className="tittle-food">
-                                {item.food}</h3>
+                                {item.food.toUpperCase()}</h3>
                                 <p className="ingredients">
                                     {item.ingredients}
                                 </p>

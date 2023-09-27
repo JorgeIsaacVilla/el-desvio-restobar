@@ -8,41 +8,42 @@ import imagen8 from "./imgMenu8/img5.jpg";*/
 
 function Menu8({sectionId}){
     const menuItem =[
-    {pos:1,
-    image:"imagen1",
-    food:"Costillas BBQ",
-    price:25000,
-    ingredients:""},
 
-    {pos:2,
-    image:"imagen2",
-    food:"Chuleta De Cerdo",
-    price:22000,
-    ingredients:""},
-
-    {pos:3,
-    image:"imagen3",
-    food:"Parrillada Mixta",
-    price:27000,
-    ingredients:""},
-
-    {pos:4,
-    image:"imagen4",
-    food:"Lomo De Cerdo",
-    price:23000,
-    ingredients:""},
-
-    {pos:5,
-    image:"imagen5",
-    food:"Pechuga Asada",
-    price:23000,
-    ingredients:""},
-
-    {pos:6,
-    image:"imagen6",
-    food:"Lomo De Res Asado Al Carbón",
-    price:28000,
-    ingredients:""},
+            {pos:1,
+            image: "imagen1",
+            food:'Costillas BBQ',
+            price:'25000',
+            ingredients:'400g de Costillitas de Cerdo Asado al Carbón | Salsa BBQ | Papas Criollas | Ensalada al Día. '},
+            
+            {pos:2,
+            image: "imagen2",
+            food:'Chuleta de cerdo',
+            price:'22000',
+            ingredients:'Loncha de Pernil Asado al Carbón | Papas Francesas | Ensalada. '},
+            
+            {pos:3,
+            image: "imagen3",
+            food:'parrillada mixta',
+            price:'28000',
+            ingredients:'150g de Carne Asado al Carbón | Pollo | Chorizo | Butifarra | Ensalada | Chimichurri Artesanal. '},
+            
+            {pos:4,
+            image: "imagen4",
+            food:'Pechuga Gratinada',
+            price:'27000',
+            ingredients:'300g de Pechuga de Pollo Asado al Carbón | Gratinada en Queso Mozzarella | 200g de Papas a la Francesa | Ensalada al Día. '},
+            
+            {pos:5,
+            image: "imagen5",
+            food:'pechuga asada',
+            price:'23000',
+            ingredients:'300g de Pechuga de Pollo Asado al Carbón | 200g de Papas a la Francesa | Ensalada al Día. '},
+            
+            {pos:6,
+            image: "imagen6",
+            food:'Lomo de res asado al carbón',
+            price:'28000',
+            ingredients:'300g de Lomo Ancho | 200g de Papas a la Francesa | Ensalada del Día | Mazorca Dulce Asada | Chimichurri Artesanal.'},
     ]
     return(
         <>
@@ -55,7 +56,7 @@ function Menu8({sectionId}){
                         <div>
                             <h3 
                              className="tittle-food">
-                                {item.food}</h3>
+                                {item.food.toUpperCase()}</h3>
                                 <p className="ingredients">
                                     {item.ingredients}
                                 </p>

@@ -1,54 +1,55 @@
 import React from "react";
 import "./Menu.css";
-import imagen1 from "./imgMenu5/img1.jpg";
+/*import imagen1 from "./imgMenu5/img1.jpg";
 import imagen2 from "./imgMenu5/img2.jpg";
 import imagen3 from "./imgMenu5/img3.jpg";
 import imagen4 from "./imgMenu5/img4.jpg";
-import imagen5 from "./imgMenu5/img5.jpg";
+import imagen5 from "./imgMenu5/img5.jpg";*/
 
 function Menu5({sectionId}){
     const menuItem =[
-    {pos:1,
-    image:imagen1,
-    food:"Chori - Buti",
-    price:17500,
-    ingredients:""},
-
-    {pos:2,
-    image:imagen2,
-    food:"Suizo",
-    price:18000,
-    ingredients:""},
-
-    {pos:3,
-    image:imagen3,
-    food:"Ranchero",
-    price:19000,
-    ingredients:""},
-
-    {pos:4,
-    image:imagen4,
-    food:"Combinado",
-    price:21000,
-    ingredients:""},
-
-    {pos:5,
-    image:imagen5,
-    food:"Pollo",
-    price:20000,
-    ingredients:""},
-
-    {pos:6,
-    image:imagen5,
-    food:"Carne - Pollo",
-    price:21000,
-    ingredients:""},
-
-    {pos:7,
-    image:imagen5,
-    food:"Lomito",
-    price:23000,
-    ingredients:""},
+            
+            {pos:1,
+            image: "imagen1",
+            food:'chori-buti',
+            price:'17500',
+            ingredients:'Bollo Limpio | Adobadas con Aliños de la Casa | Lechuga | Papa Chongo | Chorizo y Butifarra | Tártara | Piña | Queso Costeño. '},
+            
+            {pos:2,
+            image: "imagen2",
+            food:'suizo',   
+            price:'18000',
+            ingredients:'Bollo Limpio | Adobadas con Aliños de la Casa | Lechuga | Papa Chongo | Salchicha Suiza | Tártara | Piña | Queso Costeño. '},
+            
+            {pos:3,
+            image: "imagen3",
+            food:'ranchero',
+            price:'19000',
+            ingredients:'Bollo Limpio | Adobadas con Aliños de la Casa | Lechuga | Papa Chongo | Salchicha Ranchera | Tártara | Piña | Queso Costeño. '},
+            
+            {pos:4,
+            image: "imagen4",
+            food:'combinado',
+            price:'21000',
+            ingredients:'Bollo Limpio | Adobadas con Aliños de la Casa | Lechuga | Papa Chongo | Carne | Pollo | Chorizo | Butifarra | Tártara | Piña | Queso Costeño. '},
+            
+            {pos:5,
+            image: "imagen5",
+            food:'pollo',
+            price:'20000',
+            ingredients:'Bollo Limpio | Adobadas con Aliños de la Casa | Lechuga | Papa Chongo | Pollo | Tártara | Piña | Queso Costeño. '},
+            
+            {pos:6,
+            image: "imagen6",
+            food:'carne-pollo',
+            price:'21000',
+            ingredients:'Bollo Limpio | Adobadas con Aliños de la Casa | Lechuga | Papa Chongo | Carne y Pollo | Tártara | Piña | Queso Costeño. '},
+            
+            {pos:7,
+            image: "imagen7",
+            food:'lomito',
+            price:'23000',
+            ingredients:'Bollo Limpio | Adobadas con Aliños de la Casa | Lechuga | Papa Chongo | Lomito de Res | Tártara | Piña | Queso Costeño.'},
     ]
     return(
         <>
@@ -61,7 +62,7 @@ function Menu5({sectionId}){
                         <div>
                             <h3 
                              className="tittle-food">
-                                {item.food}</h3>
+                                {item.food.toUpperCase()}</h3>
                                 <p className="ingredients">
                                     {item.ingredients}
                                 </p>

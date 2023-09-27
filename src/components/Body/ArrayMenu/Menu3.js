@@ -1,72 +1,72 @@
 import React from "react";
 import "./Menu.css";
-import imagen1 from "./imgMenu3/img1.jpg";
+/*import imagen1 from "./imgMenu3/img1.jpg";
 import imagen2 from "./imgMenu3/img2.jpg";
 import imagen3 from "./imgMenu3/img3.jpg";
 import imagen4 from "./imgMenu3/img4.jpg";
-import imagen5 from "./imgMenu3/img5.jpg";
+import imagen5 from "./imgMenu3/img5.jpg";*/
 
 function Menu3({sectionId}){
     const menuItem =[
-    {pos:1,
-    image:imagen1,
-    food:"Sencilla",
-    price:14000,
-    ingredients:""},
-
-    {pos:2,
-    image:imagen2,
-    food:"Gratinada",
-    price:17000,
-    ingredients:""},
-
-    {pos:3,
-    image:imagen3,
-    food:"Ranchera",
-    price:18000,
-    ingredients:""},
-
-    {pos:4,
-    image:imagen4,
-    food:"Suiza",
-    price:20000,
-    ingredients:""},
-
-    {pos:5,
-    image:imagen5,
-    food:"Chori - Buti",
-    price:18000,
-    ingredients:""},
-
-    {pos:6,
-    image:imagen5,
-    food:"Carne - Pollo",
-    price:23000,
-    ingredients:""},
-
-    {pos:7,
-    image:imagen5,
-    food:"Combinado",
-    price:24000,
-    ingredients:""},
-
-    {pos:8,
-    image:imagen5,
-    food:"Pollo",
-    price:23000,
-    ingredients:""},
-
-    {pos:9,
-    image:imagen5,
-    food:"Lomito",
-    price:24000,
-    ingredients:""},
-
-    {pos:10,
-    image:imagen5,
-    food:"La Bodegona",
-    price:30000,
-    ingredients:""},
+            {pos:1,
+            image: "imagen1",
+            food:'SENCILLA',
+            price:'14000',
+            ingredients:'Papas Francesas | Adobadas con Aliños de la Casa | Lechuga | Papa Chongo | Salchicha | Tártara | Piña | Queso Costeño. '},
+            
+            {pos:2,
+            image: "imagen2",
+            food:'GRATINADA',
+            price:'17000',
+            ingredients:'Papas Francesas | Adobadas con Aliños de la Casa | Lechuga | Papa Chongo | Salchicha | Tártara | Piña | Queso Costeño | Queso Mozzarella Gratinado. '},
+            
+            {pos:3,
+            image: "imagen3",
+            food:'RANCHERA',
+            price:'18000',
+            ingredients:'Papas Francesas | Adobadas con Aliños de la Casa | Lechuga | Papa Chongo | Salchicha Ranchera | Tártara | Piña | Queso Costeño. '},
+            
+            {pos:4,
+            image: "imagen4",
+            food:'SUIZA',
+            price:'20000',
+            ingredients:'Papas Francesas | Adobadas con Aliños de la Casa | Lechuga | Papa Chongo | Salchicha Suiza | Tártara | Piña | Queso Costeño. '},
+            
+            {pos:5,
+            image: "imagen5",
+            food:'CHORI-BUTI',
+            price:'18000',
+            ingredients:'Papas Francesas | Adobadas con Aliños de la Casa | Lechuga | Papa Chongo | Chorizo y Butifarra | Tártara | Piña | Queso Costeño. '},
+            
+            {pos:6,
+            image: "imagen6",
+            food:'CARNE-POLLO',
+            price:'23000',
+            ingredients:'Papas Francesas | Adobadas con Aliños de la Casa | Lechuga | Papa Chongo | Carne y Pollo | Tártara | Piña | Queso Costeño. '},
+            
+            {pos:7,
+            image: "imagen7",
+            food:'COMBINADO',
+            price:'24000',
+            ingredients:'Papas Francesas | Adobadas con Aliños de la Casa | Lechuga | Papa Chongo | Carne | Pollo | Chorizo | Butifarra | Tártara | Piña | Queso Costeño. '},
+            
+            {pos:8,
+            image: "imagen8",
+            food:'POLLO',
+            price:'23000',
+            ingredients:'Papas Francesas | Adobadas con Aliños de la Casa | Lechuga | Papa Chongo | Pollo | Tártara | Piña | Queso Costeño. '},
+            
+            {pos:9,
+            image: "imagen9",
+            food:'LOMITO',
+            price:'24000',
+            ingredients:'Papas Francesas | Adobadas con Aliños de la Casa | Lechuga | Papa Chongo | Lomito de Res | Tártara | Piña | Queso Costeño. '},
+            
+            {pos:10,
+            image: "imagen10",
+            food:'LA BODEGONA',
+            price:'30000',
+            ingredients:'Papas Francesas | Adobadas con Aliños de la Casa | Lechuga | Papa Chongo | Carne | Pollo | Chorizo | Butifarra | Tártara | Piña | Queso Costeño | Queso Mozzarella Gratinado | Maíz.'},
     ]
     return(
         <>
@@ -79,7 +79,7 @@ function Menu3({sectionId}){
                         <div>
                             <h3 
                              className="tittle-food">
-                                {item.food}</h3>
+                                {item.food.toUpperCase()}</h3>
                                 <p className="ingredients">
                                     {item.ingredients}
                                 </p>

@@ -8,29 +8,31 @@ import imagen5 from "./imgMenu9/img5.jpg";*/
 
 function Menu9({sectionId}){
     const menuItem =[
-    {pos:1,
-    image:"imagen1",
-    food:"Salvajada Bodegona #1",
-    price:50000,
-    ingredients:""},
-
-    {pos:2,
-    image:"imagen2",
-    food:"Salvajada Bodegona #2",
-    price:70000,
-    ingredients:""},
-
-    {pos:3,
-    image:"imagen3",
-    food:"Alitas BBQ",
-    price:"",
-    ingredients:""},
-
-    {pos:4,
-    image:"imagen4",
-    food:"Hamburguesa London",
-    price:"",
-    ingredients:""},
+            
+            {pos:1,
+            image: "imagen1",
+            food:'Salvajada Bodegona #1',
+            price:'50000',
+            ingredients:'Bollo | Papas a la Francesa | Lomo de Res | Pechuga de Pollo | Butifarra | Chorizo | Lechuga | Papa Chongo | Queso Costeño | Gratinado con Queso Mozzarella | Maíz | Costillas BBQ (Sugerido para Máx. 3 Personas) '},
+            
+            {pos:2,
+            image: "imagen2",
+            food:'Salvajada Bodegona #2',
+            price:'70000',
+            ingredients:'Bollo | Papas a la Francesa | Lomo de Res | Pechuga de Pollo | Butifarra | Chorizo | Lechuga | Papa Chongo | Queso Costeño | Gratinado con Queso Mozzarella | Maíz | Costillas BBQ (Sugerido para Máx. 5 Personas) '},
+            
+            {pos:3,
+            image: "imagen3",
+            food:'Alitas BBQ',
+            price:'25000',
+            ingredients:'Papas a la Francesa | Ensalada | 10 Unidades de Alitas | Salsa de la Casa | Bastones de Apio – Zanahoria. '},
+            
+            {pos:4,
+            image: "imagen4",
+            food:'Hamburguesa London',
+            price:'28000',
+            ingredients:'Pan Artesanal | Pechuga Crespa | Salsa de la Casa | Pechuga de Pollo | Carne de Res | Bondiola de Cerdo | Queso Mozzarella | Queso Cheeda | Tomate.'},
+    
     ]
     return(
         <>
@@ -43,7 +45,7 @@ function Menu9({sectionId}){
                         <div>
                             <h3 
                              className="tittle-food">
-                                {item.food}</h3>
+                                {item.food.toUpperCase()}</h3>
                                 <p className="ingredients">
                                     {item.ingredients}
                                 </p>
