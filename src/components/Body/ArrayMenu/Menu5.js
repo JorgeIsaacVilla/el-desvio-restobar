@@ -13,43 +13,43 @@ function Menu5({sectionId}){
             image: "imagen1",
             food:'chori-buti',
             price:'17500',
-            ingredients:'Bollo Limpio | Adobadas con Aliños de la Casa | Lechuga | Papa Chongo | Chorizo y Butifarra | Tártara | Piña | Queso Costeño. '},
+            ingredients:'Bollo Limpio | Lechuga | Papa Chongo | Chorizo y Butifarra | Tártara | Piña | Queso Costeño. '},
             
             {pos:2,
             image: "imagen2",
             food:'suizo',   
             price:'18000',
-            ingredients:'Bollo Limpio | Adobadas con Aliños de la Casa | Lechuga | Papa Chongo | Salchicha Suiza | Tártara | Piña | Queso Costeño. '},
+            ingredients:'Bollo Limpio | Lechuga | Papa Chongo | Salchicha Suiza | Tártara | Piña | Queso Costeño. '},
             
             {pos:3,
             image: "imagen3",
             food:'ranchero',
             price:'19000',
-            ingredients:'Bollo Limpio | Adobadas con Aliños de la Casa | Lechuga | Papa Chongo | Salchicha Ranchera | Tártara | Piña | Queso Costeño. '},
+            ingredients:'Bollo Limpio | Lechuga | Papa Chongo | Salchicha Ranchera | Tártara | Piña | Queso Costeño. '},
             
             {pos:4,
             image: "imagen4",
             food:'combinado',
             price:'21000',
-            ingredients:'Bollo Limpio | Adobadas con Aliños de la Casa | Lechuga | Papa Chongo | Carne | Pollo | Chorizo | Butifarra | Tártara | Piña | Queso Costeño. '},
+            ingredients:'Bollo Limpio | Lechuga | Papa Chongo | Carne | Pollo | Chorizo | Butifarra | Tártara | Piña | Queso Costeño. '},
             
             {pos:5,
             image: "imagen5",
             food:'pollo',
             price:'20000',
-            ingredients:'Bollo Limpio | Adobadas con Aliños de la Casa | Lechuga | Papa Chongo | Pollo | Tártara | Piña | Queso Costeño. '},
+            ingredients:'Bollo Limpio | Lechuga | Papa Chongo | Pollo | Tártara | Piña | Queso Costeño. '},
             
             {pos:6,
             image: "imagen6",
             food:'carne-pollo',
             price:'21000',
-            ingredients:'Bollo Limpio | Adobadas con Aliños de la Casa | Lechuga | Papa Chongo | Carne y Pollo | Tártara | Piña | Queso Costeño. '},
+            ingredients:'Bollo Limpio | Lechuga | Papa Chongo | Carne y Pollo | Tártara | Piña | Queso Costeño. '},
             
             {pos:7,
             image: "imagen7",
             food:'lomito',
             price:'23000',
-            ingredients:'Bollo Limpio | Adobadas con Aliños de la Casa | Lechuga | Papa Chongo | Lomito de Res | Tártara | Piña | Queso Costeño.'},
+            ingredients:'Bollo Limpio | Lechuga | Papa Chongo | Lomito de Res | Tártara | Piña | Queso Costeño.'},
     ]
     return(
         <>

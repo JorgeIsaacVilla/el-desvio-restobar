@@ -55,7 +55,7 @@ function Menu1({sectionId}) {
         image: "imagen8",
         food:'SUIZO RANCHERO',
         price:'21000',
-        ingredients:'Pan Asado Al Carbón | Salchicha Suiza | Queso Costeño | Queso Mozzarella | Papas Chongo | Tártara.'},
+        ingredients:'Pan Asado Al Carbón | Salchicha Suiza | Salchicha Ranchera | Tocineta En cuadritos | Queso Costeño | Queso Mozzarella | Papas Chongo | Tártara.'},
         
         {pos:9,
         image: "imagen9",
