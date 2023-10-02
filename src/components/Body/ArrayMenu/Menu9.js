@@ -31,7 +31,7 @@ function Menu9({sectionId}){
             image: "imagen4",
             food:'Hamburguesa London',
             price:'28000',
-            ingredients:'Pan Artesanal | Pechuga Crespa | Salsa de la Casa | Pechuga de Pollo | Carne de Res | Bondiola de Cerdo | Queso Mozzarella | Queso Cheeda | Tomate.'},
+            ingredients:'Pan Artesanal | Lechuga Crespa | Salsa Tenesis | Pechuga de Pollo | Carne de Res | Bondiola de Cerdo | Queso Mozzarella | Queso Cheeda | Tomate | Cebolla.'},
     
     ]
     return(
