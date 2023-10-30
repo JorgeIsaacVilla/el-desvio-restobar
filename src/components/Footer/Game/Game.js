@@ -1,9 +1,6 @@
 import React, { useState } from "react";
 import "./Game.css";
 
-import tetris from "./imgGame/tetris.png";
-import snake from "./imgGame/snake.png";
-import dino from "./imgGame/dino.png"
 import pacman from "./imgGame/pacman.png"
 
 function Game() {
@@ -15,24 +12,9 @@ function Game() {
 
     const gamesITem =[
 
-        {url:"https://jorgeisaacvilla.github.io/gamesHtml/PacmanHTML/index.html",
+        {url:"https://jorgeisaacvilla.github.io/my_portafolio/",
          imageGame:pacman,
-         nameGame:"Pacman",
-        },
-
-        {url:"https://jorgeisaacvilla.github.io/gamesHtml/TetrisHTML/index.html",
-         imageGame:tetris,
-         nameGame:"Tetris",
-        },
-
-        {url:"https://jorgeisaacvilla.github.io/gamesHtml/SnakeGameHTML/index.html",
-         imageGame:snake,
-         nameGame:"Snake",
-        },
-
-        {url:"https://jorgeisaacvilla.github.io/gamesHtml/FlappyDinoHTML/index.html",
-         imageGame:dino,
-         nameGame:"Dino",
+         nameGame:"Games Online",
         },
       
     ];
