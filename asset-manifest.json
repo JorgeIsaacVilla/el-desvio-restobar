@@ -1,20 +1,18 @@
 {
   "files": {
     "main.css": "/el-desvio-restobar/static/css/main.1a8fbfa0.css",
-    "main.js": "/el-desvio-restobar/static/js/main.bc868f20.js",
+    "main.js": "/el-desvio-restobar/static/js/main.82264208.js",
     "static/js/787.7a877da5.chunk.js": "/el-desvio-restobar/static/js/787.7a877da5.chunk.js",
     "static/media/m4.png": "/el-desvio-restobar/static/media/m4.0cb5eba8e224397516c2.png",
     "static/media/BackgroundImage.jpg": "/el-desvio-restobar/static/media/BackgroundImage.11d6d093829b707f31ad.jpg",
     "static/media/m1.png": "/el-desvio-restobar/static/media/m1.444dcaccdb1555ea9665.png",
     "static/media/m6.png": "/el-desvio-restobar/static/media/m6.2e9e5a4f93b051a5ab17.png",
     "static/media/m2.png": "/el-desvio-restobar/static/media/m2.64b13c28afde8d40b6a0.png",
-    "static/media/snake.png": "/el-desvio-restobar/static/media/snake.2809efecb2f3413548ae.png",
     "static/media/m7.png": "/el-desvio-restobar/static/media/m7.149ebc71a91c9034fc39.png",
     "static/media/imgQrWeb.PNG": "/el-desvio-restobar/static/media/imgQrWeb.b6007424ba1c830080c1.PNG",
     "static/media/m11.png": "/el-desvio-restobar/static/media/m11.23819f258518e6913639.png",
     "static/media/m5.png": "/el-desvio-restobar/static/media/m5.87a7454e3d340ea7941f.png",
     "static/media/Logotipo.png": "/el-desvio-restobar/static/media/Logotipo.eb6825db70061f0abcaf.png",
-    "static/media/tetris.png": "/el-desvio-restobar/static/media/tetris.559d37608f1e9503b370.png",
     "static/media/imgQrBancolombia.PNG": "/el-desvio-restobar/static/media/imgQrBancolombia.2a0335097e09e6059b03.PNG",
     "static/media/m10.png": "/el-desvio-restobar/static/media/m10.e12a8ed736aff5d6068f.png",
     "static/media/pacman.png": "/el-desvio-restobar/static/media/pacman.896ce1564744692a707b.png",
@@ -23,7 +21,6 @@
     "static/media/m12.png": "/el-desvio-restobar/static/media/m12.d81247d2a2f89b7900a2.png",
     "static/media/imgQrNequi.PNG": "/el-desvio-restobar/static/media/imgQrNequi.0be9d643f601317545de.PNG",
     "static/media/m8.png": "/el-desvio-restobar/static/media/m8.18c16e350ac4b242efa4.png",
-    "static/media/dino.png": "/el-desvio-restobar/static/media/dino.3550c03e65756fd8fd18.png",
     "static/media/icoInstagram.svg": "/el-desvio-restobar/static/media/icoInstagram.818d293fde816691d81c369f53855894.svg",
     "static/media/icoDomicilio.svg": "/el-desvio-restobar/static/media/icoDomicilio.157102dc7f38f7bc624db08e2858b794.svg",
     "static/media/icoBancolombia.svg": "/el-desvio-restobar/static/media/icoBancolombia.012678d92dd4778e45ca5134f25668cb.svg",
@@ -39,11 +36,11 @@
     "static/media/icoFacebook.svg": "/el-desvio-restobar/static/media/icoFacebook.b5a88e6a91c84e1aa5ae291ec7335f35.svg",
     "static/media/icoMenuClosed.svg": "/el-desvio-restobar/static/media/icoMenuClosed.356d101572de6c63db16.svg",
     "main.1a8fbfa0.css.map": "/el-desvio-restobar/static/css/main.1a8fbfa0.css.map",
-    "main.bc868f20.js.map": "/el-desvio-restobar/static/js/main.bc868f20.js.map",
+    "main.82264208.js.map": "/el-desvio-restobar/static/js/main.82264208.js.map",
     "787.7a877da5.chunk.js.map": "/el-desvio-restobar/static/js/787.7a877da5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1a8fbfa0.css",
-    "static/js/main.bc868f20.js"
+    "static/js/main.82264208.js"
   ]
 }
