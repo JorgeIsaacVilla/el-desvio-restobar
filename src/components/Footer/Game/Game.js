@@ -12,7 +12,7 @@ function Game() {
 
     const gamesITem =[
 
-        {url:"https://jorgeisaacvilla.github.io/my_portafolio/",
+        {url:"https://jorgeisaac.website/",
          imageGame:pacman,
          nameGame:"Games Online",
         },
