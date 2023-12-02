@@ -11,8 +11,9 @@ import { Menu7 } from "./ArrayMenu/Menu7";
 import { Menu8 } from "./ArrayMenu/Menu8";
 import { Menu9 } from "./ArrayMenu/Menu9";
 import { Menu10 } from "./ArrayMenu/Menu10";
-import { Menu12 } from "./ArrayMenu/Menu12";
 import { Menu11 } from "./ArrayMenu/Menu11";
+import { Menu12 } from "./ArrayMenu/Menu12";
+import { Menu13 } from "./ArrayMenu/Menu13";
 function Body() {
 
   return (
@@ -30,6 +31,7 @@ function Body() {
       targetSection10="section10"
       targetSection11="section11"
       targetSection12="section12"
+      targetSection13="section13"
       />
       <div className="component-body">
         <Menu1 sectionId="section1" />
@@ -44,6 +46,7 @@ function Body() {
         <Menu10 sectionId="section10" />
         <Menu11 sectionId="section11"/>
         <Menu12 sectionId="section12" />
+        <Menu13 sectionId="section13" />
       </div>
     </>
   );

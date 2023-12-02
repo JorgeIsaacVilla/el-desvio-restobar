@@ -19,8 +19,9 @@ import image9 from "./imgSliderCat/m9.png";
 import image10 from "./imgSliderCat/m10.png";
 import image11 from "./imgSliderCat/m11.png";
 import image12 from "./imgSliderCat/m12.png";
+import image13 from "./imgSliderCat/m13.png";
 
-function Slider({ targetSection1,targetSection2, targetSection3, targetSection4, targetSection5, targetSection6, targetSection7, targetSection8, targetSection9, targetSection10, targetSection11, targetSection12 }) {
+function Slider({ targetSection1,targetSection2, targetSection3, targetSection4, targetSection5, targetSection6, targetSection7, targetSection8, targetSection9, targetSection10, targetSection11, targetSection12, targetSection13 }) {
 
     const sliderITem =[
 
@@ -82,6 +83,11 @@ function Slider({ targetSection1,targetSection2, targetSection3, targetSection4,
        {targetSection:targetSection12,
         imageSlider:image12,
         tittleSLider:"ADICIONALES"
+       },
+
+       {targetSection:targetSection13,
+        imageSlider:image13,
+        tittleSLider:"ENTRADAS"
        },
 
     ];
