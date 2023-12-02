@@ -66,7 +66,7 @@ function Menu4({sectionId}){
             {pos:10,
             image: "imagen10",
             food:'combinado',
-            price:'22000',
+            price:'23000',
             ingredients:'Pan Asado al Carbón | Carne | Pollo | Chorizo | Butifarra | Queso | Papas Chongo | Lechuga | Tártara | Piña. '},
             
             {pos:11,

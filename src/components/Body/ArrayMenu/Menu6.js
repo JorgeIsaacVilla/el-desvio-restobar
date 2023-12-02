@@ -17,13 +17,13 @@ function Menu6({sectionId}){
         {pos:2,
         image: "imagen2",
         food:'Clásica de pollo',
-        price:'18000',
+        price:'17000',
         ingredients:'Pan Brioche | Pollo (Previamente Asado al Carbón) | Queso Mozzarella | Tomate | Cebolla | Tártara de la Casa. '},
         
         {pos:3,
         image: "imagen3",
         food:'doble carne',
-        price:'22000',
+        price:'26000',
         ingredients:'Pan Brioche | Doble Carne (Previamente Asado al Carbón) | Queso Mozzarella | Tomate | Cebolla | Tártara de la Casa. '},
         
         {pos:4,
@@ -37,6 +37,12 @@ function Menu6({sectionId}){
         food:'Hamburguesa artesanal de pollo',
         price:'17000',
         ingredients:'Pan Brioche | Pollo (Previamente Asado al Carbón) | Queso Mozzarella | Tomate | Cebolla | Salsa Tenesis.'},
+
+        {pos:6,
+            image: "imagen4",
+            food:'Hamburguesa London',
+            price:'28000',
+            ingredients:'Pan Artesanal | Lechuga Crespa | Salsa Tenesis | Pechuga de Pollo | Carne de Res | Bondiola de Cerdo | Queso Mozzarella | Queso Cheeda | Tomate | Cebolla.'},
 
     ]
     return(

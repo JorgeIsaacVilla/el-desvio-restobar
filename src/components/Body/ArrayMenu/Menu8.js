@@ -12,7 +12,7 @@ function Menu8({sectionId}){
             {pos:1,
             image: "imagen1",
             food:'Costillas BBQ',
-            price:'25000',
+            price:'29000',
             ingredients:'400g de Costillitas de Cerdo Asado al Carbón | Salsa BBQ | Papas Criollas | Ensalada al Día. '},
             
             {pos:2,
@@ -44,6 +44,12 @@ function Menu8({sectionId}){
             food:'Lomo de res asado al carbón',
             price:'28000',
             ingredients:'300g de Lomo Ancho | 200g de Papas a la Francesa | Ensalada del Día | Mazorca Dulce Asada | Chimichurri Artesanal.'},
+
+            {pos:7,
+                image: "imagen7",
+                food:'Bondiola De Cerdo',
+                price:'24000',
+                ingredients:'300g de Bondiola | Ensalada.'},
     ]
     return(
         <>

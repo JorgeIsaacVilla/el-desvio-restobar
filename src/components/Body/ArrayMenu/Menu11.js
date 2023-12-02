@@ -12,13 +12,13 @@ function Menu11({sectionId}){
         {pos:1,
         image: "imagen1",
         food:'Coca-cola 400ml',
-        price:3500,
+        price:4000,
         ingredients:''},
         
         {pos:2,
         image: "imagen2",
         food:'Coca-cola 250ml',
-        price:2500,
+        price:3000,
         ingredients:''},
         
         {pos:3,
@@ -60,25 +60,25 @@ function Menu11({sectionId}){
         {pos:9,
         image: "imagen9",
         food:'Gaseosa Postobón 250ml',
-        price:2000,
+        price:2500,
         ingredients:''},
         
         {pos:10,
         image: "imagen10",
         food:'Gaseosa Postobón 400ml',
-        price:3000,
+        price:3500,
         ingredients:''},
         
         {pos:11,
         image: "imagen11",
-        food:'Natumalta',
-        price:3000,
+        food:'Natumalta 400ml',
+        price:3500,
         ingredients:''},
         
         {pos:12,
         image: "imagen12",
-        food:'Natumalta',
-        price:2000,
+        food:'Natumalta 200ml',
+        price:2500,
         ingredients:''},
         
         {pos:13,
@@ -95,14 +95,14 @@ function Menu11({sectionId}){
         
         {pos:15,
         image: "imagen15",
-        food:'Gaseosa Postobón 1.5ml',
-        price:5000,
+        food:'Gaseosa Postobón 1.5lt',
+        price:6000,
         ingredients:''},
         
         {pos:16,
         image: "imagen16",
         food:'Gaseosa Postobón 2lt',
-        price:6000,
+        price:7000,
         ingredients:''},
         
         {pos:17,
@@ -209,8 +209,8 @@ function Menu11({sectionId}){
         
         {pos:34,
         image: "imagen34",
-        food:'Gordons lata',
-        price:15000,
+        food:'Like',
+        price:5000,
         ingredients:''},
         
         {pos:35,
@@ -283,6 +283,18 @@ function Menu11({sectionId}){
         image: "imagen46",
         food:'Adicional Micheladas',
         price:2000,
+        ingredients:''},
+
+        {pos:47,
+        image: "imagen47",
+        food:'Cocacola 2.5lt',
+        price:10000,
+        ingredients:''},
+        
+        {pos:48,
+        image: "imagen48",
+        food:'Agua cristal 600ml',
+        price:3000,
         ingredients:''},
     ]
     return(

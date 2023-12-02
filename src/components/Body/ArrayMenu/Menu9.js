@@ -26,12 +26,6 @@ function Menu9({sectionId}){
             food:'Alitas BBQ',
             price:'25000',
             ingredients:'Papas a la Francesa | Ensalada | 10 Unidades de Alitas | Salsa de la Casa | Bastones de Apio – Zanahoria. '},
-            
-            {pos:4,
-            image: "imagen4",
-            food:'Hamburguesa London',
-            price:'28000',
-            ingredients:'Pan Artesanal | Lechuga Crespa | Salsa Tenesis | Pechuga de Pollo | Carne de Res | Bondiola de Cerdo | Queso Mozzarella | Queso Cheeda | Tomate | Cebolla.'},
     
     ]
     return(
