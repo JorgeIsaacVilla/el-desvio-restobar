@@ -10,8 +10,14 @@ import image1 from "./imgSliderCat/m1.png";
 import image2 from "./imgSliderCat/m2.png";
 import image3 from "./imgSliderCat/m3.png";
 import image4 from "./imgSliderCat/m4.png";
-import image5 from "./imgSliderCat/m5.png";
 
+/*Solicitud Cliente (inicio) */
+//Por solicitud del cliente este menú se mostrara de lunes a jueves
+//por solicitud del cliente este menú ira despues del menú perros salvaje (Menú4)
+import image14 from "./imgSliderCat/m14.png";
+/*Solicitud Cliente (Fin) */
+
+import image5 from "./imgSliderCat/m5.png";
 import image6 from "./imgSliderCat/m6.png";
 import image7 from "./imgSliderCat/m7.png";
 import image8 from "./imgSliderCat/m8.png";
@@ -21,9 +27,12 @@ import image11 from "./imgSliderCat/m11.png";
 import image12 from "./imgSliderCat/m12.png";
 import image13 from "./imgSliderCat/m13.png";
 
-function Slider({ targetSection1,targetSection2, targetSection3, targetSection4, targetSection5, targetSection6, targetSection7, targetSection8, targetSection9, targetSection10, targetSection11, targetSection12, targetSection13 }) {
+function Slider({ targetSection1,targetSection2, targetSection3, targetSection4, targetSection14, targetSection5, targetSection6, targetSection7, targetSection8, targetSection9, targetSection10, targetSection11, targetSection12, targetSection13 }) {
 
-    const sliderITem =[
+   const today = new Date().getDay(); /* Obtener el día actual de la semana */
+  const showMenu14 = today >= 1 && today <= 4; // Verificación de días
+
+    const sliderItem =[
 
         {targetSection:targetSection1,
          imageSlider:image1,
@@ -44,6 +53,11 @@ function Slider({ targetSection1,targetSection2, targetSection3, targetSection4,
        imageSlider:image4,
        tittleSLider:"PERROS SALVAJES"
        },
+
+       {targetSection:targetSection14,
+        imageSlider:image14,
+        tittleSLider:"COMBOS"
+        },
 
        {targetSection:targetSection5,
        imageSlider:image5,
@@ -92,41 +106,42 @@ function Slider({ targetSection1,targetSection2, targetSection3, targetSection4,
 
     ];
 
-  return (
-
-    <>
-      {/*https://codesandbox.io/p/sandbox/lmvldw?file=%2Fsrc%2Fmain.jsx%3A8%2C5 */}
-      <div className="section-complete">
-        <h2 className="tittle-category">Categorías</h2>
-        <div className="canva-slider">
-          <Swiper
-            slidesPerView={4}
-            spaceBetween={40}
-            freeMode={true}
-            modules={[FreeMode, Pagination]}
-            className="mySwiper"
-          >
-            {sliderITem.map((slider)=>
-            <SwiperSlide key={slider.tittleSLider}>
-                <a data-href={`#${slider.targetSection}`} 
-                  onClick={(e) => {
-                  e.preventDefault();
-                  const target = document.querySelector(`#${slider.targetSection}`);
-                  target.scrollIntoView({ behavior: 'smooth' });
-                  }}>
-                    <div className="description-swiper">
-                    <img src={slider.imageSlider} />
-                    <h3> {slider.tittleSLider} </h3>
-                    </div>
-                </a>
-            </SwiperSlide>
-            )}
-          </Swiper>
-          {/*<div className="line"></div>*/}
+    return (
+      <>
+        <div className="section-complete">
+          <h2 className="tittle-category">Categorías</h2>
+          <div className="canva-slider">
+            <Swiper
+              slidesPerView={4}
+              spaceBetween={40}
+              freeMode={true}
+              modules={[FreeMode, Pagination]}
+              className="mySwiper"
+            >
+              {sliderItem.map((slider) =>
+                showMenu14 || slider.targetSection !== targetSection14 ? (
+                  <SwiperSlide key={slider.tittleSLider}>
+                    <a
+                      data-href={`#${slider.targetSection}`}
+                      onClick={(e) => {
+                        e.preventDefault();
+                        const target = document.querySelector(`#${slider.targetSection}`);
+                        target.scrollIntoView({ behavior: 'smooth' });
+                      }}
+                    >
+                      <div className="description-swiper">
+                        <img src={slider.imageSlider} alt={`Imagen de ${slider.tittleSLider}`} />
+                        <h3>{slider.tittleSLider}</h3>
+                      </div>
+                    </a>
+                  </SwiperSlide>
+                ) : null
+              )}
+            </Swiper>
+          </div>
         </div>
-      </div>
-    </>
-  );
-}
-
-export { Slider };
+      </>
+    );
+  }
+  
+  export { Slider };

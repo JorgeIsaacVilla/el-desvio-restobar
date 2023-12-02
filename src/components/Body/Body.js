@@ -14,7 +14,12 @@ import { Menu10 } from "./ArrayMenu/Menu10";
 import { Menu11 } from "./ArrayMenu/Menu11";
 import { Menu12 } from "./ArrayMenu/Menu12";
 import { Menu13 } from "./ArrayMenu/Menu13";
+import { Menu14 } from "./ArrayMenu/Menu14";
+
 function Body() {
+
+  const today = new Date().getDay(); /* Obtener el dia actual de la semana*/
+  const showMenu14 = today >= 1 && today <= 4; //verificación de días
 
   return (
     <>
@@ -32,12 +37,20 @@ function Body() {
       targetSection11="section11"
       targetSection12="section12"
       targetSection13="section13"
+      targetSection14="section14"
       />
       <div className="component-body">
         <Menu1 sectionId="section1" />
         <Menu2 sectionId="section2"/>
         <Menu3 sectionId="section3"/>
         <Menu4 sectionId="section4"/>
+
+{/*Solicitud Cliente (inicio) 
+//Por solicitud del cliente este menú se mostrara de lunes a jueves}
+//por solicitud del cliente este menú ira despues del menú perros salvaje (Menú4)*/}
+        {showMenu14 && <Menu14 sectionId="section14"/>}
+{/*Solicitud Cliente (Fin) */}
+
         <Menu5 sectionId="section5"/>
         <Menu6 sectionId="section6" />
         <Menu7 sectionId="section7" />
