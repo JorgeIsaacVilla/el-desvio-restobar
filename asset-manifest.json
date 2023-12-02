@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/el-desvio-restobar/static/css/main.1a8fbfa0.css",
-    "main.js": "/el-desvio-restobar/static/js/main.48e7c981.js",
+    "main.js": "/el-desvio-restobar/static/js/main.90191c31.js",
     "static/js/787.7a877da5.chunk.js": "/el-desvio-restobar/static/js/787.7a877da5.chunk.js",
     "static/media/m4.png": "/el-desvio-restobar/static/media/m4.0cb5eba8e224397516c2.png",
     "static/media/BackgroundImage.jpg": "/el-desvio-restobar/static/media/BackgroundImage.11d6d093829b707f31ad.jpg",
     "static/media/m1.png": "/el-desvio-restobar/static/media/m1.444dcaccdb1555ea9665.png",
     "static/media/m6.png": "/el-desvio-restobar/static/media/m6.2e9e5a4f93b051a5ab17.png",
     "static/media/m2.png": "/el-desvio-restobar/static/media/m2.64b13c28afde8d40b6a0.png",
+    "static/media/m13.png": "/el-desvio-restobar/static/media/m13.2a6d064bc000679131f4.png",
     "static/media/m7.png": "/el-desvio-restobar/static/media/m7.149ebc71a91c9034fc39.png",
     "static/media/imgQrWeb.PNG": "/el-desvio-restobar/static/media/imgQrWeb.b6007424ba1c830080c1.PNG",
     "static/media/m11.png": "/el-desvio-restobar/static/media/m11.23819f258518e6913639.png",
@@ -36,11 +37,11 @@
     "static/media/icoFacebook.svg": "/el-desvio-restobar/static/media/icoFacebook.b5a88e6a91c84e1aa5ae291ec7335f35.svg",
     "static/media/icoMenuClosed.svg": "/el-desvio-restobar/static/media/icoMenuClosed.356d101572de6c63db16.svg",
     "main.1a8fbfa0.css.map": "/el-desvio-restobar/static/css/main.1a8fbfa0.css.map",
-    "main.48e7c981.js.map": "/el-desvio-restobar/static/js/main.48e7c981.js.map",
+    "main.90191c31.js.map": "/el-desvio-restobar/static/js/main.90191c31.js.map",
     "787.7a877da5.chunk.js.map": "/el-desvio-restobar/static/js/787.7a877da5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1a8fbfa0.css",
-    "static/js/main.48e7c981.js"
+    "static/js/main.90191c31.js"
   ]
 }
