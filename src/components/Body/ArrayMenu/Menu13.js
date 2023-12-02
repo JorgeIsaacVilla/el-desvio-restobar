@@ -33,7 +33,7 @@ function Menu13({sectionId}){
     ]
     return(
         <>
-            <h2 className="tittle-item" id={sectionId}>ADICIONALES</h2>
+            <h2 className="tittle-item" id={sectionId}>ENTRADAS</h2>
             <ul>
                 {menuItem.map((item)=>
                 <li key= {item.pos} >
