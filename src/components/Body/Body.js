@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Body.css";
 import { Slider } from "./SliderCategory/Slider";
 import { Menu1 } from "./ArrayMenu/Menu1";
@@ -15,14 +15,33 @@ import { Menu11 } from "./ArrayMenu/Menu11";
 import { Menu12 } from "./ArrayMenu/Menu12";
 import { Menu13 } from "./ArrayMenu/Menu13";
 import { Menu14 } from "./ArrayMenu/Menu14";
+import { BannerProduct } from "./BannerProduct/BannerProduct";
 
 function Body() {
 
+  /*Lógica para mostrar menú solo de lunes a jueves (inicio) */
   const today = new Date().getDay(); /* Obtener el dia actual de la semana*/
   const showMenu14 = today >= 1 && today <= 4; //verificación de días
+  /*Lógica para mostrar menú solo de lunes a jueves (fin) */
+  
+  /*Lógica de banner de producto (inicio) */
+  const [isBannerVisible, setIsBannerVisible] = useState(false);
+  const [selectedProduct, setSelectedProduct] = useState(null);
+
+  const handleProductClick = (item) => {
+    setSelectedProduct(item);
+    setIsBannerVisible(true);
+  };
+
+  const closeProductBanner = () => {
+    setIsBannerVisible(false);
+  }
+
+  /*Lógica de banner de producto (fin) */
 
   return (
-    <>
+  <>
+    {isBannerVisible && <BannerProduct productInfo={selectedProduct} onClose={closeProductBanner}/>}
       <Slider 
       targetSection1="section1" 
       targetSection2="section2" 
@@ -40,28 +59,28 @@ function Body() {
       targetSection14="section14"
       />
       <div className="component-body">
-        <Menu1 sectionId="section1" />
-        <Menu2 sectionId="section2"/>
-        <Menu3 sectionId="section3"/>
-        <Menu4 sectionId="section4"/>
+        <Menu1 sectionId="section1" onProductClick={handleProductClick}/>
+        <Menu2 sectionId="section2" onProductClick={handleProductClick}/>
+        <Menu3 sectionId="section3" onProductClick={handleProductClick}/>
+        <Menu4 sectionId="section4" onProductClick={handleProductClick}/>
 
 {/*Solicitud Cliente (inicio) 
 //Por solicitud del cliente este menú se mostrara de lunes a jueves}
 //por solicitud del cliente este menú ira despues del menú perros salvaje (Menú4)*/}
-        {showMenu14 && <Menu14 sectionId="section14"/>}
+        {showMenu14 && <Menu14 sectionId="section14" onProductClick={handleProductClick}/>}
 {/*Solicitud Cliente (Fin) */}
 
-        <Menu5 sectionId="section5"/>
-        <Menu6 sectionId="section6" />
-        <Menu7 sectionId="section7" />
-        <Menu8 sectionId="section8" />
-        <Menu9 sectionId="section9" />
-        <Menu10 sectionId="section10" />
-        <Menu11 sectionId="section11"/>
-        <Menu12 sectionId="section12" />
-        <Menu13 sectionId="section13" />
+        <Menu5 sectionId="section5" onProductClick={handleProductClick}/>
+        <Menu6 sectionId="section6"  onProductClick={handleProductClick}/>
+        <Menu7 sectionId="section7"  onProductClick={handleProductClick}/>
+        <Menu8 sectionId="section8"  onProductClick={handleProductClick}/>
+        <Menu9 sectionId="section9"  onProductClick={handleProductClick}/>
+        <Menu10 sectionId="section10"  onProductClick={handleProductClick}/>
+        <Menu11 sectionId="section11" onProductClick={handleProductClick}/>
+        <Menu12 sectionId="section12"  onProductClick={handleProductClick}/>
+        <Menu13 sectionId="section13"  onProductClick={handleProductClick}/>
       </div>
-    </>
+  </>
   );
 }
 

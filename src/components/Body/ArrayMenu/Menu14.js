@@ -7,7 +7,12 @@ import imagen4 from "./imgMenu14/img4.jpg";*/
 
 /*Por solicitud del cliente este menú se mostrará de lunes a jueves */
 
-function Menu14({sectionId}){
+function Menu14({sectionId, onProductClick}){
+
+    const handleItemclick = (item) => {
+        onProductClick(item);
+    }
+
     const menuItem =[
     {pos:1,
     image:"imagen1",
@@ -32,7 +37,7 @@ function Menu14({sectionId}){
             <h2 className="tittle-item" id={sectionId}>COMBOS</h2>
             <ul>
                 {menuItem.map((item)=>
-                <li key= {item.pos} >
+                <li key= {item.pos} onClick={() => handleItemclick(item)}>
                     <div className="item-contend">
                         {/*<img src={item.image} />*/}
                         <div>

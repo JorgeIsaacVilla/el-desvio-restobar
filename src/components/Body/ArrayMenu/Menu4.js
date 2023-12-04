@@ -6,7 +6,12 @@ import imagen3 from "./imgMenu4/img3.jpg";
 import imagen4 from "./imgMenu4/img4.jpg";
 import imagen5 from "./imgMenu4/img5.jpg";*/
 
-function Menu4({sectionId}){
+function Menu4({sectionId, onProductClick}){
+
+    const handleItemclick = (item) => {
+        onProductClick(item);
+    }
+    
     const menuItem =[
                     
             {pos:1,
@@ -92,7 +97,7 @@ function Menu4({sectionId}){
             <h2 className="tittle-item" id={sectionId}>PERROS SALVAJES</h2>
             <ul>
                 {menuItem.map((item)=>
-                <li key= {item.pos} >
+                <li key= {item.pos} onClick={() => handleItemclick(item)}>
                     <div className="item-contend">
                         {/*<img src={item.image} />*/}
                         <div>

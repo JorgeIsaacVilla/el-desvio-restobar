@@ -5,7 +5,12 @@ import imagen2 from "./imgMenu6/img2.jpg";
 import imagen3 from "./imgMenu6/img3.jpg";
 import imagen4 from "./imgMenu6/img4.jpg";*/
 
-function Menu6({sectionId}){
+function Menu6({sectionId, onProductClick}){
+
+    const handleItemclick = (item) => {
+        onProductClick(item);
+    }
+    
     const menuItem =[
 
         {pos:1,
@@ -50,7 +55,7 @@ function Menu6({sectionId}){
             <h2 className="tittle-item" id={sectionId}>HAMBURGUESAS</h2>
             <ul>
                 {menuItem.map((item)=>
-                <li key= {item.pos} >
+                <li key= {item.pos} onClick={() => handleItemclick(item)}>
                     <div className="item-contend">
                        {/*<img src={item.image} />*/}
                         <div>
