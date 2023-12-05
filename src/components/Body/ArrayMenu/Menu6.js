@@ -46,7 +46,7 @@ function Menu6({sectionId, onProductClick}){
         {pos:6,
             image: "imagen4",
             food:'Hamburguesa London',
-            price:'28000',
+            price:'30000',
             ingredients:'Pan Artesanal | Lechuga Crespa | Salsa Tenesis | Pechuga de Pollo | Carne de Res | Bondiola de Cerdo | Queso Mozzarella | Queso Cheeda | Tomate | Cebolla.'},
 
     ]
