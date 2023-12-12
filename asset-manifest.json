@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/el-desvio-restobar/static/css/main.bdf02cf0.css",
-    "main.js": "/el-desvio-restobar/static/js/main.72e7f7ae.js",
+    "main.js": "/el-desvio-restobar/static/js/main.350b8faa.js",
     "static/js/787.7a877da5.chunk.js": "/el-desvio-restobar/static/js/787.7a877da5.chunk.js",
     "static/media/m4.png": "/el-desvio-restobar/static/media/m4.0cb5eba8e224397516c2.png",
     "static/media/m14.png": "/el-desvio-restobar/static/media/m14.4ff44483e65db29d2632.png",
@@ -19,7 +19,10 @@
     "static/media/m10.png": "/el-desvio-restobar/static/media/m10.e12a8ed736aff5d6068f.png",
     "static/media/pacman.png": "/el-desvio-restobar/static/media/pacman.896ce1564744692a707b.png",
     "static/media/m3.png": "/el-desvio-restobar/static/media/m3.c2a6c4cb4f9b1f1b93b2.png",
+    "static/media/img1.jpg": "/el-desvio-restobar/static/media/img1.5e418459c45c24088f47.jpg",
+    "static/media/img2.jpg": "/el-desvio-restobar/static/media/img2.eec36b3abcc8f19f6fe6.jpg",
     "static/media/m9.png": "/el-desvio-restobar/static/media/m9.da4b1173e13b85dceba2.png",
+    "static/media/img3.jpg": "/el-desvio-restobar/static/media/img3.d9ceb344d69508472f09.jpg",
     "static/media/m12.png": "/el-desvio-restobar/static/media/m12.d81247d2a2f89b7900a2.png",
     "static/media/imgQrNequi.PNG": "/el-desvio-restobar/static/media/imgQrNequi.0be9d643f601317545de.PNG",
     "static/media/m8.png": "/el-desvio-restobar/static/media/m8.18c16e350ac4b242efa4.png",
@@ -38,11 +41,11 @@
     "static/media/icoFacebook.svg": "/el-desvio-restobar/static/media/icoFacebook.b5a88e6a91c84e1aa5ae291ec7335f35.svg",
     "static/media/icoMenuClosed.svg": "/el-desvio-restobar/static/media/icoMenuClosed.356d101572de6c63db16.svg",
     "main.bdf02cf0.css.map": "/el-desvio-restobar/static/css/main.bdf02cf0.css.map",
-    "main.72e7f7ae.js.map": "/el-desvio-restobar/static/js/main.72e7f7ae.js.map",
+    "main.350b8faa.js.map": "/el-desvio-restobar/static/js/main.350b8faa.js.map",
     "787.7a877da5.chunk.js.map": "/el-desvio-restobar/static/js/787.7a877da5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bdf02cf0.css",
-    "static/js/main.72e7f7ae.js"
+    "static/js/main.350b8faa.js"
   ]
 }
