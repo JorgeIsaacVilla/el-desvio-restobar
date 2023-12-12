@@ -36,12 +36,17 @@ function Menu13({sectionId, onProductClick}){
     price:8000,
     ingredients:""},
 
-    
     {pos:5,
     image:"imagen5",
     food:"Platano Maduro X 1 Und",
     price:5000,
     ingredients:""},
+
+    {pos:6,
+    image:"imagen6",
+    food:"Mazorca Americana",
+    price:8000,
+    ingredients:"5 Porciones de Mazorca Bañadas en Salsa de la Casa y Queso Costeño."},
     ]
     return(
         <>
