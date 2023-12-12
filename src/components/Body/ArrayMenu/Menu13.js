@@ -35,6 +35,13 @@ function Menu13({sectionId, onProductClick}){
     food:"Canastitas de Plátano Verde. Pídelo con Suero, Queso y Pico de Gallo X 4 Und",
     price:8000,
     ingredients:""},
+
+    
+    {pos:5,
+    image:"imagen5",
+    food:"Platano Maduro X 1 Und",
+    price:5000,
+    ingredients:""},
     ]
     return(
         <>

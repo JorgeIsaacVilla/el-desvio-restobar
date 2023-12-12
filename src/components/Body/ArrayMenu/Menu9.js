@@ -31,8 +31,15 @@ function Menu9({sectionId, onProductClick}){
             food:'Alitas BBQ',
             price:'25000',
             ingredients:'Papas a la Francesa | Ensalada | 10 Unidades de Alitas | Salsa de la Casa | Bastones de Apio – Zanahoria. '},
+
+            {pos:4,
+            image: "imagen4",
+            food:'Nuggets De Pollo',
+            price:'15000',
+            ingredients:'150 gr De Papas a la Francesa + Bebida + Postre del día.'},
     
     ]
+    
     return(
         <>
             <h2 className="tittle-item" id={sectionId}>DE LA CASA</h2>
