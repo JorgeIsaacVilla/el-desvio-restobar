@@ -50,7 +50,7 @@ function Game() {
 
                 <div className="footer-component-menu">
                     <div className="line" style={{marginBottom:"16px"}}></div>
-                    <a href="https://jorgeisaacvilla.github.io/my_portafolio/" >Realizado por Jorge Isaac Villa López | Portfolio.com</a>         
+                    <a href="https://jorgeisaacvilla.website/" >Realizado por Jorge Isaac Villa López | Portfolio.com</a>         
                 </div>
             </div>
         )}
