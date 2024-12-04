@@ -12,7 +12,7 @@ function Game() {
 
     const gamesITem =[
 
-        {url:"https://jorgeisaac.website/",
+        {url:"https://enycosmic.site/metaverso/",
          imageGame:pacman,
          nameGame:"Games Online",
         },
@@ -50,7 +50,7 @@ function Game() {
 
                 <div className="footer-component-menu">
                     <div className="line" style={{marginBottom:"16px"}}></div>
-                    <a href="https://jorgeisaacvilla.website/" >Realizado por Jorge Isaac Villa López | Portfolio.com</a>         
+                    <a href="https://jorgeisaac.vercel.app/" >Realizado por Jorge Isaac Villa López | Portfolio.com</a>         
                 </div>
             </div>
         )}

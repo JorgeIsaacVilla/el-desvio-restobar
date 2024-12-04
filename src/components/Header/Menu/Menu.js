@@ -63,14 +63,14 @@ function Menu() {
                         </div>
                         <div>
                             <h2 className="h2-image-domicilio">¡Envío a domicilio!</h2>
-                            <p className="p-image-domicilio">Servicio a domicilios 3222584428.</p>
+                            <p className="p-image-domicilio">Servicio a domicilios 3023844831.</p>
                         </div>
                     </div>
                 </div>
 
                 <div className="footer-component-menu">
                     <div className="line" style={{marginBottom:"16px"}}></div>
-                    <a href="https://jorgeisaacvilla.github.io/my_portafolio/" >Realizado por Jorge Isaac Villa López | Portfolio.com</a>         
+                    <a href="https://jorgeisaac.vercel.app/" >Realizado por Jorge Isaac Villa López | Portfolio.com</a>         
                 </div>
 
             </div>
