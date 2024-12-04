@@ -15,27 +15,21 @@ function Menu13({sectionId, onProductClick}){
     {pos:1,
     image:"imagen1",
     food:"Empanadas de Carne, Salsa y Pico de Gallo X 6 Und",
-    price:8000,
+    price:10000,
     ingredients:""},
 
     {pos:2,
     image:"imagen2",
     food:"Deditos de Queso y Salsa",
-    price:8000,
+    price:10000,
     ingredients:""},
 
     {pos:3,
     image:"imagen3",
-    food:"Yuquita Frita con Suero",
+    food:"Yuquita Frita",
     price:8000,
     ingredients:""},
-
-    {pos:4,
-    image:"imagen4",
-    food:"Canastitas de Plátano Verde. Pídelo con Suero, Queso y Pico de Gallo X 4 Und",
-    price:8000,
-    ingredients:""},
-
+/* Verificar si aun se venden estos productos
     {pos:5,
     image:"imagen5",
     food:"Platano Maduro X 1 Und",
@@ -47,6 +41,7 @@ function Menu13({sectionId, onProductClick}){
     food:"Mazorca Americana",
     price:8000,
     ingredients:"5 Porciones de Mazorca Bañadas en Salsa de la Casa y Queso Costeño."},
+*/
     ]
     return(
         <>
