@@ -14,18 +14,17 @@ import { Menu10 } from "./ArrayMenu/Menu10";
 import { Menu11 } from "./ArrayMenu/Menu11";
 import { Menu12 } from "./ArrayMenu/Menu12";
 import { Menu13 } from "./ArrayMenu/Menu13";
-/*import { Menu14 } from "./ArrayMenu/Menu14";*/
+import { Menu14 } from "./ArrayMenu/Menu14";
 import { BannerProduct } from "./BannerProduct/BannerProduct";
 
 function Body() {
 
   /*Lógica para mostrar menú solo de lunes a jueves (inicio) */
-  //const today = new Date().getDay(); /* Obtener el dia actual de la semana*/
-  //const showMenu14 = today >= 1 && today <= 4; //verificación de días
+  const today = new Date().getDay(); /* Obtener el dia actual de la semana*/
+  const showMenu14 = today >= 1 && today <= 4; //verificación de días
   /*Lógica para mostrar menú solo de lunes a jueves (fin) */
   
   /*Lógica de banner de producto (inicio) */
-/*
   const [isBannerVisible, setIsBannerVisible] = useState(false);
   const [selectedProduct, setSelectedProduct] = useState(null);
 
@@ -37,7 +36,7 @@ function Body() {
   const closeProductBanner = () => {
     setIsBannerVisible(false);
   }
-*/
+
   /*Lógica de banner de producto (fin) */
 
   return (
@@ -68,7 +67,7 @@ function Body() {
 {/*Solicitud Cliente (inicio) 
 //Por solicitud del cliente este menú se mostrara de lunes a jueves}
 //por solicitud del cliente este menú ira despues del menú perros salvaje (Menú4)*/}
-        {/*showMenu14 && <Menu14 sectionId="section14" onProductClick={handleProductClick}/>*/}
+        {showMenu14 && <Menu14 sectionId="section14" onProductClick={handleProductClick}/>}
 {/*Solicitud Cliente (Fin) */}
 
         <Menu5 sectionId="section5" onProductClick={handleProductClick}/>
