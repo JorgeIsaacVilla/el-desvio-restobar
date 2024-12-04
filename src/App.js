@@ -7,11 +7,10 @@ function App() {
   return (
     <div className='canva-des-app'>
       <div className="App">
-        {/*<div className="App gradient"> 
+        {/*<div className="App gradient"> */}
         <Header />
         <Body />
-        <Footer />*/}
-        <h1>Prueba de funcionamiento</h1>
+        <Footer />
       </div>
     </div>
   );
