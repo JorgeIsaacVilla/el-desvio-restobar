@@ -16,37 +16,37 @@ function Menu6({sectionId, onProductClick}){
         {pos:1,
         image: "imagen1",
         food:'Clásica de la casa',
-        price:'17000',
+        price:'20000',
         ingredients:'Pan Brioche | Carne (Previamente Asado al Carbón) | Queso Mozzarella | Tomate | Cebolla | Tártara de la Casa. '},
         
         {pos:2,
         image: "imagen2",
         food:'Clásica de pollo',
-        price:'17000',
+        price:'20000',
         ingredients:'Pan Brioche | Pollo (Previamente Asado al Carbón) | Queso Mozzarella | Tomate | Cebolla | Tártara de la Casa. '},
         
         {pos:3,
         image: "imagen3",
         food:'doble carne',
-        price:'26000',
+        price:'30000',
         ingredients:'Pan Brioche | Doble Carne (Previamente Asado al Carbón) | Queso Mozzarella | Tomate | Cebolla | Tártara de la Casa. '},
         
         {pos:4,
         image: "imagen4",
         food:'Hamburguesa artesanal',
-        price:'17000',
+        price:'20000',
         ingredients:'Pan Brioche | Carne (Previamente Asado al Carbón) | Queso Mozzarella | Tomate | Cebolla Caramelizada | Salsa Tenesis. '},
         
         {pos:5,
         image: "imagen5",
         food:'Hamburguesa artesanal de pollo',
-        price:'17000',
+        price:'20000',
         ingredients:'Pan Brioche | Pollo (Previamente Asado al Carbón) | Queso Mozzarella | Tomate | Cebolla | Salsa Tenesis.'},
 
         {pos:6,
             image: "imagen4",
             food:'Hamburguesa London',
-            price:'30000',
+            price:'34000',
             ingredients:'Pan Artesanal | Lechuga Crespa | Salsa Tenesis | Pechuga de Pollo | Carne de Res | Bondiola de Cerdo | Queso Mozzarella | Queso Cheeda | Tomate | Cebolla.'},
 
     ]
