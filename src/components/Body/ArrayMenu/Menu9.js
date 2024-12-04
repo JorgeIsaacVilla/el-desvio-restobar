@@ -17,27 +17,27 @@ function Menu9({sectionId, onProductClick}){
             {pos:1,
             image: "imagen1",
             food:'Salvajada Bodegona #1',
-            price:'50000',
+            price:'55000',
             ingredients:'Bollo | Papas a la Francesa | Lomo de Res | Pechuga de Pollo | Butifarra | Chorizo | Lechuga | Papa Chongo | Queso Costeño | Gratinado con Queso Mozzarella | Maíz | Costillas BBQ (Sugerido para Máx. 3 Personas) '},
             
             {pos:2,
             image: "imagen2",
             food:'Salvajada Bodegona #2',
-            price:'70000',
+            price:'75000',
             ingredients:'Bollo | Papas a la Francesa | Lomo de Res | Pechuga de Pollo | Butifarra | Chorizo | Lechuga | Papa Chongo | Queso Costeño | Gratinado con Queso Mozzarella | Maíz | Costillas BBQ (Sugerido para Máx. 5 Personas) '},
             
             {pos:3,
             image: "imagen3",
-            food:'Alitas BBQ',
+            food:'Picada Familiar',
             price:'25000',
-            ingredients:'Papas a la Francesa | Ensalada | 10 Unidades de Alitas | Salsa de la Casa | Bastones de Apio – Zanahoria. '},
-
+            ingredients:'Bondiola | Carne de Res | Pollo | Choriso de Cerdo | Papa Criolla | Bollo | Salsa de la casa | Salsa Chimi | Salsa Tartara. '},
+/*
             {pos:4,
             image: "imagen4",
             food:'Nuggets De Pollo',
             price:'15000',
             ingredients:'150 gr De Papas a la Francesa + Bebida + Postre del día.'},
-    
+*/    
     ]
     
     return(
