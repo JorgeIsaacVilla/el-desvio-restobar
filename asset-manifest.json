@@ -1,11 +1,10 @@
 {
   "files": {
-    "main.css": "/el-desvio-restobar/static/css/main.c2e13ffa.css",
+    "main.css": "/el-desvio-restobar/static/css/main.d6b45629.css",
     "main.js": "/el-desvio-restobar/static/js/main.a466d392.js",
     "static/js/787.7a877da5.chunk.js": "/el-desvio-restobar/static/js/787.7a877da5.chunk.js",
     "static/media/m4.png": "/el-desvio-restobar/static/media/m4.0cb5eba8e224397516c2.png",
     "static/media/m14.png": "/el-desvio-restobar/static/media/m14.4ff44483e65db29d2632.png",
-    "static/media/BackgroundImage.jpg": "/el-desvio-restobar/static/media/BackgroundImage.11d6d093829b707f31ad.jpg",
     "static/media/m1.png": "/el-desvio-restobar/static/media/m1.444dcaccdb1555ea9665.png",
     "static/media/m6.png": "/el-desvio-restobar/static/media/m6.2e9e5a4f93b051a5ab17.png",
     "static/media/m2.png": "/el-desvio-restobar/static/media/m2.64b13c28afde8d40b6a0.png",
@@ -37,12 +36,12 @@
     "index.html": "/el-desvio-restobar/index.html",
     "static/media/icoFacebook.svg": "/el-desvio-restobar/static/media/icoFacebook.b5a88e6a91c84e1aa5ae291ec7335f35.svg",
     "static/media/icoMenuClosed.svg": "/el-desvio-restobar/static/media/icoMenuClosed.356d101572de6c63db16.svg",
-    "main.c2e13ffa.css.map": "/el-desvio-restobar/static/css/main.c2e13ffa.css.map",
+    "main.d6b45629.css.map": "/el-desvio-restobar/static/css/main.d6b45629.css.map",
     "main.a466d392.js.map": "/el-desvio-restobar/static/js/main.a466d392.js.map",
     "787.7a877da5.chunk.js.map": "/el-desvio-restobar/static/js/787.7a877da5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c2e13ffa.css",
+    "static/css/main.d6b45629.css",
     "static/js/main.a466d392.js"
   ]
 }
