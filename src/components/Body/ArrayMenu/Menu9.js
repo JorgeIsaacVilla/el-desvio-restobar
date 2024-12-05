@@ -29,8 +29,8 @@ function Menu9({sectionId, onProductClick}){
             {pos:3,
             image: "imagen3",
             food:'Picada Familiar',
-            price:'25000',
-            ingredients:'Bondiola | Carne de Res | Pollo | Choriso de Cerdo | Papa Criolla | Bollo | Salsa de la casa | Salsa Chimi | Salsa Tartara. '},
+            price:'85000',
+            ingredients:'Bondiola | Carne de Res | Pollo | Chorizo de Cerdo | Papa Criolla | Bollo | Salsa de la casa | Salsa Chimi | Salsa Tartara. '},
 /*
             {pos:4,
             image: "imagen4",
